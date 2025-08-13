@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTour – Explore Nature</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header & Branding -->
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="EcoTour Logo">
+    <h1>EcoTour</h1>
+  </div>
+</header>
+
+<!-- Sticky Navigation -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Explore Nature with EcoTour</h2>
+  <p>Discover the beauty of untouched landscapes</p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>About EcoTour</h2>
+  <p>EcoTour is dedicated to promoting eco-friendly travel experiences that connect you with nature while preserving it for future generations.</p>
+</section>
+
+<!-- Image Gallery -->
+<section id="gallery" class="gallery">
+  <h2>Travel Gallery</h2>
+  <div class="grid">
+    <img src="images/forest.jpeg" alt="Forest">
+    <img src="images/mountains.jpeg" alt="Mountains">
+    <img src="images/lake.jpeg" alt="Lake">
+    <img src="images/desert.jpeg" alt="Desert">
+    <img src="images/waterfall.jpeg" alt="Waterfall">
+    <img src="images/beach.jpeg" alt="Beach">
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Preferred Tour Type:</label><br>
+    <input type="radio" name="tour" value="adventure" required> Adventure
+    <input type="radio" name="tour" value="relaxation"> Relaxation
+    <input type="radio" name="tour" value="wildlife"> Wildlife
+
+    <label>Message:</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- Footer with Social Links -->
+<footer>
+  <p>Follow us:</p>
+  <a href="#" target="_blank">Facebook</a> |
+  <a href="#" target="_blank">Instagram</a> |
+  <a href="#" target="_blank">Twitter</a>
+  <p>&copy; 2025 EcoTour. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
