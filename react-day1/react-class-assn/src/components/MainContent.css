@@ -1,0 +1,47 @@
+
+.main-container {
+  background-color: #d9fdd3; /* light green background */
+  border: 2px solid darkgreen;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.main-heading {
+  color: darkgreen;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.welcome-text {
+  color: #333; /* grey/black */
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.dropdown {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid darkgreen;
+}
+
+.flower-list {
+  list-style-type: circle;
+  padding-left: 20px;
+  color: darkgreen;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block; /* keeps list centered under text-align center */
+}

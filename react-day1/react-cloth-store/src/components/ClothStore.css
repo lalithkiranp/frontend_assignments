@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+.cloth-store {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.product-table thead{
+color: black;
+}
+.product-table th,
+.product-table td {
+  border: 1px solid #ccc; /* bordered cells */
+  padding: 8px;           /* padding for readability */
+}
+
+.product-table th {
+  background-color: #f0f0f0; /* light gray heading row */
+  text-align: left;
+}
+
+.price-column {
+  text-align: right; /* align price column to right */
+}

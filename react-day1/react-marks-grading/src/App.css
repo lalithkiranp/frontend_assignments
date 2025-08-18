@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  height: 100vh;          /* full height */
+  display: flex;          /* enable flexbox */
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+td{
+  color: #333;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.grade {
+  font-weight: bold;
+}
+
+.grade.A\+ {
+  color: green;
+}
+.grade.A {
+  color: darkgreen;
+}
+.grade.B {
+  color: orange;
+}
+.grade.C {
+  color: goldenrod;
+}
+.grade.F {
+  color: red;
+}
