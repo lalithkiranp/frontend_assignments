@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "name": "Admin", "email": "admin@pms.com", "password": "admin123", "role": "admin" },
+    { "id": 2, "name": "Alice", "email": "alice@pms.com", "password": "alice123", "role": "user" }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 60000, "description": "Powerful laptop" },
+    { "id": 2, "name": "Phone", "price": 20000, "description": "Smartphone" }
+  ]
+}
