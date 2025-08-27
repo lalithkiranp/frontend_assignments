@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@turf.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@user.com",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "turfs": [
+    {
+      "id": "1",
+      "title": "Soccer Turf",
+      "location": "Downtown",
+      "price": 500,
+      "description": "Full-size soccer turf"
+    },
+    {
+      "id": "2d62",
+      "title": "Cricket Turf",
+      "location": "Hyderabad",
+      "price": 800,
+      "description": "mini-cricket turff"
+    }
+  ],
+  "cart": [],
+  "bookings": [
+    {
+      "id": "59c3",
+      "userId": "2",
+      "items": [
+        {
+          "id": "b82f",
+          "userId": "2",
+          "turfId": "1",
+          "title": "Soccer Turf",
+          "price": 500,
+          "qty": 3
+        }
+      ],
+      "total": 1500,
+      "createdAt": "2025-08-27T20:16:15.047Z"
+    }
+  ]
+}
